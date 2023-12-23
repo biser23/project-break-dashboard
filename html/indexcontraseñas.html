@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de contraseñas</title>
+    <link rel="stylesheet" href="../css/stylesgenerador.css">
+</head>
+    <body>
+        <header>
+            <a  href="../indexfondos.html" class="home">GO HOME</a>
+        </header>
+        <section id="contenido">
+            
+            <main>
+                <h2 class="t1" id="t1">Crea tu contraseña segura</h2>
+                <div id="cajaprin" class="cajaprin">
+                    <div id="botones0" class="botones0">
+                        <p>Numero de caracteres de la Contraseña</p>
+                        <input id="input" type="number" min="12" max="50"/>
+                    </div>
+                    <div class="botones" id="botones">
+                        <input id="btn" type="button" value="Generar contraseña"/>
+                    </div>
+                    <div>
+                        <p class="p1">Contraseña Generada:</p>
+                        <div id="password"></div>
+                    </div>
+                </div>
+            </main>
+            <script src="../js/scriptgenerador.js"></script>
+        </section>
+
+    </body>
+</html>

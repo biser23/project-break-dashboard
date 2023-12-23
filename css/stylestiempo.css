@@ -1,0 +1,83 @@
+#home{
+    color: white;
+    font-size: 25px;
+    transition: linear 1s;
+    text-decoration: none;
+}
+
+#home:hover{
+    font-size: 30PX;
+    width: 100px;
+    color: red;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+body{
+    background: url(../photos/3.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    font-family: 'Poppins', sans-serif;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    width: 100%;
+    height: 300px;
+    }
+
+#container{
+    color: white;
+    width: 500px;
+    background: rgba(59, 54, 54, 0.5);
+    border-radius: 15px;
+    backdrop-filter: blur(1px);
+    height: 300px;
+    overflow-y: scroll;
+    }
+
+#city{
+    padding-left: 10px;
+
+}
+
+#current-weather{
+    display: flex;
+    padding-left: 10px;
+
+  }  
+
+ #current-temperature{
+display: flex;
+margin-top: -70px;
+gap: 100px;
+
+}
+
+#degrees{
+    display: flex;
+    font-size: 40px;
+    padding-left: 10px;
+
+}
+
+#atributes{
+justify-content: center;
+font-size: 10px;
+margin-top: 30px;
+}
+
+#hours{
+    display: flex;
+    justify-content: left;
+    padding-left: 10px;
+    height: 100px;
+}
